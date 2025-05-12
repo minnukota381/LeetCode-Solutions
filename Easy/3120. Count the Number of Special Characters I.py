@@ -12,3 +12,4 @@ class Solution(object):
             else:
                 s2.add(word[i].lower())
         return len(s1&s2)
+    
